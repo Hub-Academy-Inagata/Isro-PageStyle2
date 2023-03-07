@@ -145,6 +145,16 @@ a.button-border:hover {
   background-color: #ae39ff;
 }
 
+.btanggal {
+  padding: 8px 26px;
+  border-radius: 30px;
+  background-color: #ae39ff;
+  color: #fff;
+  line-height: 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .why-section {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -514,16 +524,16 @@ a.button-border:hover {
   border-radius: 50px;
 }
 
-.iconn.telepon{
-  background-color: #8362C2;
+.iconn.telepon {
+  background-color: #8362c2;
 }
 
-.iconn.email{
-  background-color: #F2B828;
+.iconn.email {
+  background-color: #f2b828;
 }
 
-.iconn.maps{
-  background-color: #4FACF6;
+.iconn.maps {
+  background-color: #4facf6;
 }
 
 .sidekanan input {
@@ -540,11 +550,11 @@ a.button-border:hover {
 }
 
 .sidekanan input:focus {
-  border-color: #8362C2;
+  border-color: #8362c2;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.sidekanan textarea{
+.sidekanan textarea {
   width: 500px;
   padding: 12px 24px;
   border-radius: 6px;
@@ -557,17 +567,17 @@ a.button-border:hover {
   margin-bottom: 25px;
 }
 
-.sidekanan textarea:focus{
-  border-color: #8362C2;
+.sidekanan textarea:focus {
+  border-color: #8362c2;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.button.kirim{
+.button.kirim {
   width: 500px;
   text-align: center;
 }
 
-.button.kirim a{
+.button.kirim a {
   text-decoration: none;
   color: #fff;
 }
@@ -580,4 +590,98 @@ a.button-border:hover {
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;
+}
+
+.artikell-section {
+  padding: 90px 0;
+}
+
+.pinned {
+  display: flex;
+  align-items: center;
+}
+
+.kanan.pinned {
+  width: 640px;
+  height: 440px;
+  align-items: stretch;
+  flex: 0 auto;
+}
+
+.kanan.pinned img {
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.kiri.pinned {
+  display: block;
+  padding-left: 15px;
+}
+
+.kiri.pinned h3 {
+  color: #1c2661;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  width: 600px;
+}
+
+.kiri.pinned p {
+  width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #1c2661;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.kiri.pinned .penulis {
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.kiri.pinned .link{
+  color: #4facf6;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.content-wrapper.artikell{
+  display: grid;
+  justify-content: space-between;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.content-wrapper.artikell h3{
+  margin-top: 20px;
+    color: #1c2661;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.content-wrapper.artikell p{
+  margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    text-align: justify;
+}
+
+.content-wrapper.artikell .link{
+  color: #4facf6;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: none;
 }
